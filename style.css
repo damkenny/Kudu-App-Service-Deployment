@@ -1,0 +1,42 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#items {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.product {
+  box-shadow: 0px 1px 1px 0px #939393;
+  margin: 1em;
+  padding: 0.3em;
+}
+
+.product img {
+  height: 14em;
+  width: 100%;
+}
+
+.name{
+    background: black;
+    color: peachpuff;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.price{
+    font-weight: bold;
+    font-size: 20pt;
+}
